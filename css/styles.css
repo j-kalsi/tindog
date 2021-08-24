@@ -1,0 +1,188 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.headline {
+  font: Montserrat-Black;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+  margin-right:  2rem;
+}
+
+.container {
+  padding: 3% 15% 7% 15%;
+  max-width: 1500px;
+
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.row {
+  padding-top: 4.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 15px;
+}
+
+h3 {
+  font: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.first-feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.second-feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.third-feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.fa-check-circle {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-check-circle:hover{
+    color: #ff4c68;
+}
+.fa-bullseye {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+
+.fa-heart {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-heart:hover{
+  color: #ff4c68;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+position: relative;
+z-index: 1;
+}
+#testimonials{
+  text-align:center;
+  background-color:  #ef8172;
+padding: 2% 15%;
+  color: #fff;
+
+}
+.testimonial-image{
+  width: 7%;
+  border-radius: 100%;
+
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 7% 15%;
+  font-weight: bolder;
+}
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.logo-pic{
+  width: 15%;
+  margin: 15px 15px 15px;
+}
+#pricing{
+  padding: 50px;
+  text-align: center;
+  font-family: "ubuntu";
+  font-weight: bold;
+  line-height: 1;
+  max-width: 1350px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.pricing-line1{
+  margin: 0% 3% 0% 3%;
+  padding: 0% 3% 0% 3%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media  (max-width: 1020px){
+  .iphone-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+#title{
+  text-align: center;
+}
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.last-line{
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 70px 30px 20px 30px;
+ line-height: 1.5;
+}
+.end-download{
+    margin: 5% 3% 5% 3%;
+
+}
+#footer{
+  text-align: center;
+line-height: 1.5;
+  padding: 7% 15%;
+}
+.social-icons {
+  margin: 20px 10px;
+}
